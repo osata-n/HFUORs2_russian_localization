@@ -130,12 +130,12 @@ public class TranslationPlugin : BaseUnityPlugin
         translations["You know, I think you look "] = "Знаешь, я думаю, ты выглядишь";
         translations["That’s too far. "] = "Это уже перебор.";
         translations["And since I am a magician... "] = "А раз уж я фокусник...";
-        translations["Go to Mal-sook "] = "Подойти к Маль-сук";
+        translations["Go to Mal-sook "] = "Подойти к Мал-сук";
         translations["Yeah, like… "] = "Да, типа…";
         translations["Alright, let’s see "] = "Хорошо, давайте посмотрим";
         translations["No, no, it’s fine… "] = "Нет, нет, все в порядке…";
         translations["Do you really think this mess is acceptable? "] = "Вы действительно думаете, что такой бардак приемлем?";
-        translations["Mal-sook's Room"] = "Комната\nМаль-сук";
+        translations["Mal-sook's Room"] = "Комната\nМал-сук";
         translations["Milk Guys Magazine"] = "Журнал\n“Milk Guys”";
         translations["Give soondae (blood sausage)"] = "Дать сундэ\n(кровяную колбасу)";
         translations["Go to Min-jung’s Room"] = "Идти в комнату\nМин-Чжун";
@@ -169,7 +169,7 @@ public class TranslationPlugin : BaseUnityPlugin
         translations["— Well, anywa—wait, what?\n— Min-jung, should we get going?"] = "— Ну, в любом слу—стой, что?\n— Мин-Чжун, нам, может, уже пора?";
         translations["Her name’s Yu-jeong...\nI really should give this back."] = "Ее зовут Ючжон...\nНадо бы это вернуть.";
         translations["This world’s a mess...\nGuess I’d better learn how to protect someone."] = "Мир в полном бардаке...\nПожалуй, стоит научиться кого-то защищать.";
-        translations["— Man, the weather’s so nice today.\n— Huh? Isn’t that Mal-sook...?"] = "— Чувак, какая сегодня хорошая погода.\n— А? Это разве не Маль-сук...?";
+        translations["— Man, the weather’s so nice today.\n— Huh? Isn’t that Mal-sook...?"] = "— Чувак, какая сегодня хорошая погода.\n— А? Это разве не Мал-сук...?";
         translations["— Pfft!\n— What?"] = "— Пффф!\n— Что?";
         translations["— She just hung up on me?!\n— A friend."] = "— Она бросила трубку?!\n— Друг.";
         translations["— What is even happening?\n— What are they doing??"] = "— Что вообще происходит?\n— Что они делают??";
@@ -251,6 +251,40 @@ public class TranslationPlugin : BaseUnityPlugin
         translations["Coming!"] = "Иду!";
         translations[" ....tracking your farts all day? Huh?!"] = "...отслеживать твои пуки целый день? А?!";
         translations["Hello..."] = "Алло...";
+        translations["- Cat! \n- Dog!"] = "- Кошка!\n- Собака!";
+        translations["- Meow~ \n- Meow~"] = "- Мяу~\n- Мяу~";
+        translations["- Black stockings! \n- Nude stockings!"] = "- Черные чулки!\n- Телесные чулки!";
+        translations["(Business Plan Presentation)\nWann4 sleep?"] = "(Презентация бизнес-плана)\n“ВаннаФо слип”?";
+        translations["- Nude stockings! \n- Black stockings!"] = "- Телесные чулки!\n- Черные чулки!";
+        translations["I’ll consider today just a minor incident — "] = "Я сочту сегодняшнее лишь за мелкий инцидент —";
+        translations["You shy sons of— may you all just rot forever, "] = "Вы, у#@%*и — чтоб вы все сгнили н#@#й,";
+        translations["— Hahaha\n— Hahaha"] = "— Хахаха\n— Хахаха";
+        translations["These days, I feel like "] = "В последнее время мне кажется,";
+        translations["Smile"] = "Улыбнуться";
+        translations["Current affection: 0%"] = "Текущая привязанность: 0%";
+        translations["Current affection: %"] = "Текущая привязанность: %";
+        translations[" If you don't have it, go get it!!!"] = "Если нет — сходи найди!!!";
+        translations["Don't make me lose my temper—give me a cigarette~ "] = "Не доводи меня — дай сигареты~";
+        translations["Huh?    "] = "М-м?";
+        translations["Thank you for playing"] = "Спасибо за игру\nАвтор локализации - osata.n";
+        translations["Because with the ex, "] = "Потому что с бывшей";
+        translations["So at first, I really struggled "] = "Так что поначалу я очень мучилась,";
+        translations["She wears light makeup, no flashy clothes... she’s more low-key.\n"] = "На ней легкий макияж, никакой броской одежды... она более сдержанная.";
+        translations[" let’s go."] = "пойдем";
+        translations["— Ah!\n— Oh!"] = "— Ай!\n— Ой!";
+        translations["Take Care of Yourself First"] = "Позаботься сначала\nо себе";
+        translations["Should I?"] = "А... наконец-то?";
+        translations["Got it?"] = "Понял?";
+        translations["- Code Blue, Code Blue.\n- Hurry, hurry."] = "— Синий код, синий код.\n— Быстрее, быстрее.";
+        translations["Excuse me for a moment."] = "Прошу прощения, секунду.";
+        translations["-Huh?\n- Uh…"] = "-А?\n-Э-э…";
+        translations["—  Choi Wooseon! Choi Wooseon!\n— Ah…"] = "— Чхве У-Cон! Чхве У-Cон!\n— А…";
+        translations["—  Choi Wooseon! Choi Wooseon!\n— For real?!"] = "\n— Серьезно?!";
+        translations["— Kiss! Kiss! Kiss!\n— What the—"] = "— Целуй! Целуй! Целуй!\n— Что за—";
+        translations["— Kiss! Kiss! Kiss!\n— Ah, seriously~!"] = "— Целуй! Целуй! Целуй!\n— Ай, ну серьезно~!";
+        translations["— Kiss! Kiss! Kiss!\n— Why are you all like this!! Seriously!!"] = "— Целуй! Целуй! Целуй!\n— Ну что вы как маленькие!! Ну!!";
+        translations["so please — we’d be honored "] = "поэтому, пожалуйста — мы будем очень рады,";
+        translations["But really — I’m only bringing it up from a business standpoint "] = "Но, правда — я поднимаю это исключительно с деловой точки зрения,";
     }
     
     void LoadTranslationFile(string filePath)
@@ -936,6 +970,17 @@ class TextTranslationPatch
             {
                 return "SPORTS";
             }
+
+            if (dialogueToAnalyze.Contains("It was so great, so I'm really grateful. What about you, Yoo Man?") ||
+                dialogueToAnalyze.Contains("Он был замечательным, и я очень благодарна. А для тебя, Юман?"))
+            {
+                return "FOR_YOU";
+            }
+            if (dialogueToAnalyze.Contains("Huh? You got stuck too?") ||
+                dialogueToAnalyze.Contains("А? На тебе тоже?"))
+            {
+                return "STUCK";
+            }
             
             int checkCount = Math.Min(3, recentTextLog.Count);
             for (int i = recentTextLog.Count - checkCount; i < recentTextLog.Count; i++)
@@ -1139,12 +1184,19 @@ class TextTranslationPatch
                         recentText.Contains("ног") ||
                         recentText.Contains("сидишь нога на ногу") ||
                         recentText.Contains("массаж") ||
-                        recentText.Contains("физиотерапи") ||
+                        recentText.Contains("физиотерапия") ||
                         recentText.Contains("поработаю") ||
                         recentText.Contains("работать над"))
                     {
                         TranslationPlugin.logger.LogInfo($"Found MASSAGE context from Russian translation: '{recentText}'");
                         return "MASSAGE";
+                    }
+
+                    if (recentText.Contains("It's my first stage since that incident, so I've been stressing out a lot...") ||
+                        recentText.Contains("Это мое первое выступление после того инцидента, так что я очень переживаю..."))
+                    {
+                        TranslationPlugin.logger.LogInfo($"Found PERFORMANCE_STRESS context from recent history: '{recentText}'");
+                        return "PERFORMANCE_STRESS";
                     }
                 }
             }
@@ -1201,6 +1253,11 @@ class TextTranslationPatch
             string[] apology3Phrases = {
                 "just to hear an apology", "чтобы услышать извинения"
             };
+
+            string[] apology4Phrases = {
+                "…Sorry… I just wanted to make you laugh…",
+                "…Прости… Я просто хотел тебя рассмешить…"
+            };
             
             if (CheckDialogForContext(dialog1, apology1Phrases) ||
                 CheckDialogForContext(dialog2, apology1Phrases) ||
@@ -1224,6 +1281,14 @@ class TextTranslationPatch
             {
                 TranslationPlugin.logger.LogInfo($"[APOLOGY CONTEXT] Found CONTEXT_APOLOGY_3 (saving/apology expectation)!");
                 return "CONTEXT_APOLOGY_3";
+            }
+
+            if (CheckDialogForContext(dialog1, apology4Phrases) ||
+                CheckDialogForContext(dialog2, apology4Phrases) ||
+                CheckDialogForContext(dialog3, apology4Phrases))
+            {
+                TranslationPlugin.logger.LogInfo($"[APOLOGY CONTEXT] Found CONTEXT_APOLOGY_4 (wanted to make laugh)!");
+                return "CONTEXT_APOLOGY_4";
             }
             
             TranslationPlugin.logger.LogInfo($"[APOLOGY CONTEXT] No context found");
@@ -1619,6 +1684,8 @@ class TextTranslationPatch
             TranslationPlugin.logger.LogInfo($"[HUH WHY CONTEXT] Checking dialogs from {startIndex} to {endIndex}:");
             
             bool hasSmoothGuyContext = false;
+            bool hasWrongLeague = false;
+            bool hasDieAloneContext = false;
             
             for (int i = startIndex; i <= endIndex; i++)
             {
@@ -1637,12 +1704,40 @@ class TextTranslationPatch
                     hasSmoothGuyContext = true;
                     TranslationPlugin.logger.LogInfo($"[HUH WHY CONTEXT] Found 'smooth guy' context: '{dialog}'");
                 }
+
+                if (dialog == "Sigh, ah... That's kinda out of my league?" ||
+                    dialog == "*Вздох*... Это... не твое, наверное?")
+                {
+                    hasWrongLeague = true;
+                    TranslationPlugin.logger.LogInfo($"[HUH WHY CONTEXT] Found 'wrong league' context: '{dialog}'");
+                }
+
+                if (dialog == "Then... I'd rather just die alone." ||
+                    dialog == "Тогда... я лучше умру в одиночестве." ||
+                    dialog.Contains("die alone") ||
+                    dialog.Contains("умру в одиночестве"))
+                {
+                    hasDieAloneContext = true;
+                    TranslationPlugin.logger.LogInfo($"[HUH WHY CONTEXT] Found 'die alone' context: '{dialog}'");
+                }
             }
             
             if (hasSmoothGuyContext)
             {
                 TranslationPlugin.logger.LogInfo($"[HUH WHY CONTEXT] Found CONTEXT_HUH_WHY_SMOOTH_GUY!");
                 return "CONTEXT_HUH_WHY_SMOOTH_GUY";
+            }
+
+            if (hasWrongLeague)
+            {
+                TranslationPlugin.logger.LogInfo($"[HUH WHY CONTEXT] Found CONTEXT_HUH_WHY_WRONG_LEAGUE!");
+                return "CONTEXT_HUH_WHY_WRONG_LEAGUE";
+            }
+
+            if (hasDieAloneContext)
+            {
+                TranslationPlugin.logger.LogInfo($"[HUH WHY CONTEXT] Found CONTEXT_HUH_WHY_DIE_ALONE!");
+                return "CONTEXT_HUH_WHY_DIE_ALONE";
             }
             
             TranslationPlugin.logger.LogInfo($"[HUH WHY CONTEXT] No context found");
@@ -1705,7 +1800,10 @@ class TextTranslationPatch
                     dialog == "Hurry up and try it too." ||
                     dialog == "Давай, попробуй скорее тоже." ||
                     dialog == "Yuman! Say ah~" ||
-                    dialog == "Юман! Скажи “аа~”")
+                    dialog == "Юман! Скажи “аа~”" ||
+                    dialog == "Yu-jeong" ||
+                    dialog == "Sing while looking at me." ||
+                    dialog == "When you came to see me perform.")
                 {
                     hasMedicalContext = true;
                     TranslationPlugin.logger.LogInfo($"[AH CONTEXT] Found medical context: '{dialog}'");
@@ -1970,6 +2068,108 @@ class TextTranslationPatch
         }
     }
 
+    private static string GetSmileContext()
+    {
+        lock (translateLock)
+        {
+            TranslationPlugin.logger.LogInfo($"[SMILE CONTEXT] Analyzing recent logs, count: {recentTextLog.Count}");
+            
+            for (int i = Math.Max(0, recentTextLog.Count - 3); i < recentTextLog.Count; i++)
+            {
+                string dialog = recentTextLog[i];
+                if (dialog == "Happiness" || 
+                    dialog == "Счастье")
+                {
+                    TranslationPlugin.logger.LogInfo($"[SMILE CONTEXT] Found Happiness context at index {i}, using CONTEXT_SMILE_HAPPINESS");
+                    return "CONTEXT_SMILE_HAPPINESS";
+                }
+            }
+            
+            TranslationPlugin.logger.LogInfo($"[SMILE CONTEXT] No context found");
+            return "UNKNOWN";
+        }
+    }
+
+    private static string GetShouldIContext()
+    {
+        lock (translateLock)
+        {
+            TranslationPlugin.logger.LogInfo($"[SHOULD I CONTEXT] Analyzing recent logs, count: {recentTextLog.Count}");
+            
+            for (int i = Math.Max(0, recentTextLog.Count - 3); i < recentTextLog.Count; i++)
+            {
+                string dialog = recentTextLog[i];
+                if (dialog == "You're too exhausted to make any decisions now." || 
+                    dialog == "Сейчас ты слишком измотана, чтобы принимать решения.")
+                {
+                    TranslationPlugin.logger.LogInfo($"[SHOULD I CONTEXT] Found exhaustion context at index {i}, using CONTEXT_SHOULD_I_EXHAUSTED");
+                    return "CONTEXT_SHOULD_I_EXHAUSTED";
+                }
+            }
+            
+            TranslationPlugin.logger.LogInfo($"[SHOULD I CONTEXT] No context found");
+            return "UNKNOWN";
+        }
+    }
+
+    private static string GetGotItQuestionContext()
+    {
+        lock (translateLock)
+        {
+            TranslationPlugin.logger.LogInfo($"[GOT IT? CONTEXT] Analyzing recent logs, count: {recentTextLog.Count}");
+            
+            for (int i = Math.Max(0, recentTextLog.Count - 3); i < recentTextLog.Count; i++)
+            {
+                string dialog = recentTextLog[i];
+                if (dialog == "So you have to meet me every time I come." || 
+                    dialog == "Поэтому ты должна встречаться со мной каждый раз, как буду приходить.")
+                {
+                    TranslationPlugin.logger.LogInfo($"[GOT IT? CONTEXT] Found meeting context at index {i}, using CONTEXT_GOT_IT_MEETING");
+                    return "CONTEXT_GOT_IT_MEETING";
+                }
+            }
+            
+            TranslationPlugin.logger.LogInfo($"[GOT IT? CONTEXT] No context found");
+            return "UNKNOWN";
+        }
+    }
+
+    private static string GetExcuseMeContext()
+    {
+        lock (translateLock)
+        {
+            TranslationPlugin.logger.LogInfo($"[EXCUSE ME CONTEXT] Analyzing recent logs, count: {recentTextLog.Count}");
+            
+            for (int i = Math.Max(0, recentTextLog.Count - 3); i < recentTextLog.Count; i++)
+            {
+                string dialog = recentTextLog[i];
+                if (dialog == "Yes — would you like to stand here?" || 
+                    dialog == "Да — встанешь вот тут?")
+                {
+                    TranslationPlugin.logger.LogInfo($"[EXCUSE ME CONTEXT] Found standing context at index {i}, using CONTEXT_EXCUSE_ME_STANDING");
+                    return "CONTEXT_EXCUSE_ME_STANDING";
+                }
+            }
+            
+            TranslationPlugin.logger.LogInfo($"[EXCUSE ME CONTEXT] No context found");
+            return "UNKNOWN";
+        }
+    }
+
+    private static string TranslateAffectionPhrase(string original)
+    {
+        System.Text.RegularExpressions.Regex regex = new System.Text.RegularExpressions.Regex(@"Current affection: (\d+)%");
+        System.Text.RegularExpressions.Match match = regex.Match(original);
+        
+        if (match.Success)
+        {
+            string percentage = match.Groups[1].Value;
+            return $"Текущая привязанность: {percentage}%";
+        }
+        
+        return null;
+    }
+
     private static void ProcessPendingFeedsHer(string context)
     {
         lock (translateLock)
@@ -2197,6 +2397,21 @@ class TextTranslationPatch
 
         CheckAndResetContext();
 
+        if (value != null && value.StartsWith("Current affection: ") && value.Contains("%"))
+        {
+            string translated = TranslateAffectionPhrase(value);
+            if (translated != null)
+            {
+                lock (translateLock)
+                {
+                    int instanceId = __instance.GetInstanceID();
+                    SetTranslatedText(__instance, translated, instanceId);
+                    TranslationPlugin.logger.LogInfo($"AFFECTION TRANSLATED: '{value}' -> '{translated}'");
+                }
+                return;
+            }
+        }
+
         // 1.
         if (value == "Touch the circle to the border!" || value == "Touch the circle!")
         {
@@ -2271,6 +2486,12 @@ class TextTranslationPatch
                 {
                     SetTranslatedText(__instance, "Мне очень жаль...", instanceId);
                     TranslationPlugin.logger.LogInfo($"I’m sorry... -> Мне очень жаль... (context 3: saving/apology expectation)");
+                    return;
+                }
+                else if (apologyContext == "CONTEXT_APOLOGY_4")
+                {
+                    SetTranslatedText(__instance, "Прости...", instanceId);
+                    TranslationPlugin.logger.LogInfo($"I'm sorry... -> Прости... (context 4: wanted to make laugh)");
                     return;
                 }
                 else
@@ -2601,6 +2822,18 @@ class TextTranslationPatch
                 {
                     SetTranslatedText(__instance, "А? Почему?", instanceId);
                     TranslationPlugin.logger.LogInfo($"Huh? Why? -> А? Почему? (context: smooth guy)");
+                    return;
+                }
+                else if (huhWhyContext == "CONTEXT_HUH_WHY_WRONG_LEAGUE")
+                {
+                    SetTranslatedText(__instance, "А? Почему?", instanceId);
+                    TranslationPlugin.logger.LogInfo($"Huh? Why? -> А? Почему? (context: wrong league)");
+                    return;
+                }
+                else if (huhWhyContext == "CONTEXT_HUH_WHY_DIE_ALONE")
+                {
+                    SetTranslatedText(__instance, "А? Почему?", instanceId);
+                    TranslationPlugin.logger.LogInfo($"Huh? Why? -> А? Почему? (context: die alone)");
                     return;
                 }
                 else
@@ -2978,7 +3211,156 @@ class TextTranslationPatch
             }
         }
 
-        // 22. Остальной код...
+        // 22. "Smile"
+        if (value == "Smile" || value == "Smile." || value == "Smile!")
+        {
+            lock (translateLock)
+            {
+                TranslationPlugin.logger.LogInfo($"=== SMILE DETECTED: '{value}' ===");
+                
+                int instanceId = __instance.GetInstanceID();
+                
+                if (!string.IsNullOrEmpty(value) && !IsSystemText(value))
+                {
+                    if (recentTextLog.Count > 20)
+                    {
+                        recentTextLog.RemoveAt(0);
+                    }
+                    recentTextLog.Add(value);
+                }
+                
+                string context = GetSmileContext();
+                TranslationPlugin.logger.LogInfo($"Smile context: {context}");
+                
+                if (context == "CONTEXT_SMILE_HAPPINESS")
+                {
+                    SetTranslatedText(__instance, "Улыбка", instanceId);
+                    TranslationPlugin.logger.LogInfo($"Smile -> Улыбка (context: Happiness)");
+                    return;
+                }
+                else
+                {
+                    SetTranslatedText(__instance, "Улыбнуться", instanceId);
+                    TranslationPlugin.logger.LogInfo($"Smile -> Улыбнуться (default)");
+                    return;
+                }
+            }
+        }
+
+        // 23. "Should I?"
+        if (value == "Should I?" || value == "Should I…" || value == "Should I...")
+        {
+            lock (translateLock)
+            {
+                TranslationPlugin.logger.LogInfo($"=== SHOULD I? DETECTED: '{value}' ===");
+                
+                int instanceId = __instance.GetInstanceID();
+                
+                if (!string.IsNullOrEmpty(value) && !IsSystemText(value))
+                {
+                    if (recentTextLog.Count > 20)
+                    {
+                        recentTextLog.RemoveAt(0);
+                    }
+                    recentTextLog.Add(value);
+                }
+                
+                string context = GetShouldIContext();
+                TranslationPlugin.logger.LogInfo($"Should I? context: {context}");
+                
+                if (context == "CONTEXT_SHOULD_I_EXHAUSTED")
+                {
+                    SetTranslatedText(__instance, "Разве?", instanceId);
+                    TranslationPlugin.logger.LogInfo($"Should I? -> Разве? (context: exhausted)");
+                    return;
+                }
+                else
+                {
+                    SetTranslatedText(__instance, "А... наконец-то?", instanceId);
+                    TranslationPlugin.logger.LogInfo($"Should I? -> А... наконец-то? (default)");
+                    return;
+                }
+            }
+        }
+
+        // 24 "Got it?"
+        if (value == "Got it?")
+        {
+            lock (translateLock)
+            {
+                TranslationPlugin.logger.LogInfo($"=== GOT IT? DETECTED: '{value}' ===");
+                
+                int instanceId = __instance.GetInstanceID();
+                
+                if (!string.IsNullOrEmpty(value) && !IsSystemText(value))
+                {
+                    if (recentTextLog.Count > 20)
+                    {
+                        recentTextLog.RemoveAt(0);
+                    }
+                    recentTextLog.Add(value);
+                }
+                
+                string context = GetGotItQuestionContext();
+                TranslationPlugin.logger.LogInfo($"Got it? context: {context}");
+                
+                if (context == "CONTEXT_GOT_IT_MEETING")
+                {
+                    SetTranslatedText(__instance, "Поняла?", instanceId);
+                    TranslationPlugin.logger.LogInfo($"Got it? -> Поняла? (context: meeting)");
+                    return;
+                }
+                else
+                {
+                    string defaultTranslation = TranslationPlugin.GetTranslation(value);
+                    if (defaultTranslation == null)
+                    {
+                        defaultTranslation = "Понял?";
+                    }
+                    SetTranslatedText(__instance, defaultTranslation, instanceId);
+                    TranslationPlugin.logger.LogInfo($"Got it? -> {defaultTranslation} (default, no context)");
+                    return;
+                }
+            }
+        }
+
+        // 25. "Excuse me for a moment."
+        if (value == "Excuse me for a moment." || value == "Excuse me for a moment…" || value == "Excuse me for a moment...")
+        {
+            lock (translateLock)
+            {
+                TranslationPlugin.logger.LogInfo($"=== EXCUSE ME FOR A MOMENT DETECTED: '{value}' ===");
+                
+                int instanceId = __instance.GetInstanceID();
+                
+                if (!string.IsNullOrEmpty(value) && !IsSystemText(value))
+                {
+                    if (recentTextLog.Count > 20)
+                    {
+                        recentTextLog.RemoveAt(0);
+                    }
+                    recentTextLog.Add(value);
+                }
+                
+                string context = GetExcuseMeContext();
+                TranslationPlugin.logger.LogInfo($"Excuse me for a moment. context: {context}");
+                
+                if (context == "CONTEXT_EXCUSE_ME_STANDING")
+                {
+                    SetTranslatedText(__instance, "Погоди, секунду.", instanceId);
+                    TranslationPlugin.logger.LogInfo($"Excuse me for a moment. -> Погоди, секунду. (context: standing)");
+                    return;
+                }
+                else
+                {
+                    SetTranslatedText(__instance, "Прошу прощения, секунду.", instanceId);
+                    TranslationPlugin.logger.LogInfo($"Excuse me for a moment. -> Прошу прощения, секунду. (default)");
+                    return;
+                }
+            }
+        }
+
+        // 26. Остальной код...
         lock (translateLock)
         {
             try
@@ -3150,6 +3532,7 @@ class TextTranslationPatch
                         bool isFemaleSpeakerContext = false;
                         bool isCaughtContext = false;
                         bool isAgreementContext = false;
+                        bool isWorkFeedbackContext = false;
                         
                         int checkCount = Math.Min(3, recentTextLog.Count);
                         for (int i = Math.Max(0, recentTextLog.Count - checkCount); i < recentTextLog.Count; i++)
@@ -3192,6 +3575,13 @@ class TextTranslationPatch
                                 TranslationPlugin.logger.LogInfo($"  -> Agreement context detected (school beauty)");
                                 break;
                             }
+
+                            if (recentText == "I’ll send you a written summary with feedback later today." ||
+                                recentText == "Я пришлю тебе письменный ответ с комментариями сегодня, позднее.")
+                            {
+                                isWorkFeedbackContext = true;
+                                TranslationPlugin.logger.LogInfo($"  -> Work feedback context detected");
+                            }
                         }
                         
                         string translation;
@@ -3219,6 +3609,11 @@ class TextTranslationPatch
                             {
                                 translation = "Отлично!";
                                 TranslationPlugin.logger.LogInfo($"Got it! -> Отлично! (caught exact context)");
+                            }
+                            else if (isWorkFeedbackContext)
+                            {
+                                translation = "Отлично!";
+                                TranslationPlugin.logger.LogInfo($"Got it! -> Отлично! (work feedback context)");
                             }
                             else
                             {
@@ -3323,6 +3718,18 @@ class TextTranslationPatch
                     {
                         SetTranslatedText(__instance, "Обо мне?", instanceId);
                         TranslationPlugin.logger.LogInfo($"Me? -> Обо мне? ({context} context)");
+                        return;
+                    }
+                    else if (context == "FOR_YOU")
+                    {
+                        SetTranslatedText(__instance, "Для меня?", instanceId);
+                        TranslationPlugin.logger.LogInfo($"Me? -> Для меня? (context: What for you)");
+                        return;
+                    }
+                    else if (context == "STUCK")
+                    {
+                        SetTranslatedText(__instance, "На мне?", instanceId);
+                        TranslationPlugin.logger.LogInfo($"Me? -> На мне? (context: stuck)");
                         return;
                     }
                     
@@ -3445,6 +3852,11 @@ class TextTranslationPatch
                     {
                         SetTranslatedText(__instance, "Все хорошо?", instanceId);
                         TranslationPlugin.logger.LogInfo("Are you okay? -> Все хорошо? (massage context)");
+                    }
+                    else if (context == "PERFORMANCE_STRESS")
+                    {
+                        SetTranslatedText(__instance, "Все в порядке?", instanceId);
+                        TranslationPlugin.logger.LogInfo("Are you okay? -> Все в порядке? (performance stress context)");
                     }
                     else
                     {
