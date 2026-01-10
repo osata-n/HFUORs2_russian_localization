@@ -3,8 +3,10 @@
     <TargetFramework>net472</TargetFramework>
     <OutputType>Library</OutputType>
     <LangVersion>9.0</LangVersion>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <Deterministic>false</Deterministic>
   </PropertyGroup>
-  
+
   <ItemGroup>
     <Reference Include="BepInEx">
       <HintPath>..\core\BepInEx.dll</HintPath>
@@ -31,5 +33,29 @@
       <HintPath>..\..\FHUOR2_Data\Managed\Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <PackageReference Include="System.Text.RegularExpressions" Version="4.3.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <AssemblyAttribute Include="System.Reflection.AssemblyTitleAttribute">
+      <_Parameter1>FHUORs2 Русская Локализация</_Parameter1>
+    </AssemblyAttribute>
+    <AssemblyAttribute Include="System.Reflection.AssemblyDescriptionAttribute">
+      <_Parameter1>Полная ручная локализация для Five Hearts Under One Roof season 2</_Parameter1>
+    </AssemblyAttribute>
+    <AssemblyAttribute Include="System.Reflection.AssemblyCompanyAttribute">
+      <_Parameter1>osata.n</_Parameter1>
+    </AssemblyAttribute>
+    <AssemblyAttribute Include="System.Reflection.AssemblyProductAttribute">
+      <_Parameter1>FHUORs2 Russian localization Mod</_Parameter1>
+    </AssemblyAttribute>
+    <AssemblyAttribute Include="System.Reflection.AssemblyCopyrightAttribute">
+      <_Parameter1>© 2026 osata.n</_Parameter1>
+    </AssemblyAttribute>
+    <AssemblyAttribute Include="System.Reflection.AssemblyVersionAttribute">
+      <_Parameter1>1.0</_Parameter1>
+    </AssemblyAttribute>
+    <AssemblyAttribute Include="System.Reflection.AssemblyFileVersionAttribute">
+      <_Parameter1>1.0</_Parameter1>
+    </AssemblyAttribute>
   </ItemGroup>
 </Project>
