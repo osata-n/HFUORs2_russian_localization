@@ -25,20 +25,20 @@ public class TranslationPlugin : BaseUnityPlugin
 
         string pluginPath = Path.GetDirectoryName(Info.Location);
         string translationsDir = Path.Combine(pluginPath, "translations");
-        string untranslatedFile = Path.Combine(translationsDir, "untranslated.txt");
+        //  string untranslatedFile = Path.Combine(translationsDir, "untranslated.txt");
         
-        try
-        {
-            if (File.Exists(untranslatedFile))
-            {
-                File.Delete(untranslatedFile);
-                Logger.LogInfo("Файл untranslated.txt очищен при запуске.");
-            }
-        }
-        catch (Exception ex)
-        {
-            Logger.LogWarning($"Не удалось очистить untranslated.txt: {ex.Message}");
-        }
+            // try
+            // {
+            //     if (File.Exists(untranslatedFile))
+            //     {
+            //         File.Delete(untranslatedFile);
+            //         Logger.LogInfo("Файл untranslated.txt очищен при запуске.");
+            //     }
+            // }
+            // catch (Exception ex)
+            // {
+            //     Logger.LogWarning($"Не удалось очистить untranslated.txt: {ex.Message}");
+            // }
 
         LoadTranslations();
         Harmony.CreateAndPatchAll(typeof(TextTranslationPatch));
@@ -75,7 +75,7 @@ public class TranslationPlugin : BaseUnityPlugin
         }
         
         Logger.LogInfo($"Loaded {translations.Count} translations from {translationFiles.Length} files");
-        CreateUntranslatedFile(translationsPath);
+        //  CreateUntranslatedFile(translationsPath);
     }
     
     void AddDefaultTranslations()
@@ -285,6 +285,20 @@ public class TranslationPlugin : BaseUnityPlugin
         translations["— Kiss! Kiss! Kiss!\n— Why are you all like this!! Seriously!!"] = "— Целуй! Целуй! Целуй!\n— Ну что вы как маленькие!! Ну!!";
         translations["so please — we’d be honored "] = "поэтому, пожалуйста — мы будем очень рады,";
         translations["But really — I’m only bringing it up from a business standpoint "] = "Но, правда — я поднимаю это исключительно с деловой точки зрения,";
+        translations["— I want to protect you with burning passion.\n— Woah.. woah—"] = "— Я хочу защищать тебя с пылающей страстью.\n— Ой.. ой—";
+        translations["— I want to protect you with burning passion.\n— Woah— woah woah woah…!"] = "— Я хочу защищать тебя с пылающей страстью.\n— Ой— ой ой ой…!";
+        translations["I swear, I was just passing by and saw trash so… "] = "Клянусь, я просто проходил мимо, увидел мусор и…";
+        translations["Try Something Else"] = "Попробуй\nчто-нибудь иное";
+        translations["I Support Your Dream"] = "Я поддержу\nтвою мечту";
+        translations["I always knew the day would come "] = "Я всегда знал, что придет день,";
+        translations["Your Legs Are Gorgeous"] = "У тебя\nшикарные ноги";
+        translations["To bless your eyes with maximum sexy vibes. You’re welcome~ "] = "Чтобы благословить ваши взоры максимально сексуальной атмосферой. Так что жду~!";
+        translations["thank you so, so much.\n"] = "огромное-преогромное спасибо.";
+        translations["No way. "] = "Без шансов.>";
+        translations["Love you, Bbanggyul~ "] = "Люблю тебя, Ппанггюль~";
+        translations["Like, get married already! "] = "Типа, выходи уже замуж!";
+        translations["Like, “Hey, what the hell is this?” "] = "Типа: “Эй, что это, чёрт возьми?”";
+        translations["Every minute? "] = "Каждую минуту?";
     }
     
     void LoadTranslationFile(string filePath)
@@ -388,15 +402,15 @@ public class TranslationPlugin : BaseUnityPlugin
         Logger.LogInfo("Default translation files created!");
     }
     
-    void CreateUntranslatedFile(string translationsPath)
-    {
-        string untranslatedPath = Path.Combine(translationsPath, "untranslated.txt");
-        if (File.Exists(untranslatedPath))
-        {
-            File.Delete(untranslatedPath);
-        }
-        File.WriteAllText(untranslatedPath, "// Untranslated texts - copy these to appropriate translation files\n");
-    }
+        // void CreateUntranslatedFile(string translationsPath)
+        // {
+        //     string untranslatedPath = Path.Combine(translationsPath, "untranslated.txt");
+        //     if (File.Exists(untranslatedPath))
+        //     {
+        //         File.Delete(untranslatedPath);
+        //     }
+        //     File.WriteAllText(untranslatedPath, "// Untranslated texts - copy these to appropriate translation files\n");
+        // }
     
     public static string GetTranslation(string original)
     {
@@ -405,26 +419,26 @@ public class TranslationPlugin : BaseUnityPlugin
         return null;
     }
     
-    public static void LogUntranslatedText(string text)
-    {
-        if (!loggedTexts.Contains(text))
-        {
-            loggedTexts.Add(text);
-            
-            string pluginPath = Path.GetDirectoryName(typeof(TranslationPlugin).Assembly.Location);
-            string translationsPath = Path.Combine(pluginPath, "translations");
-            string untranslatedPath = Path.Combine(translationsPath, "untranslated.txt");
-            
-            try
-            {
-                File.AppendAllText(untranslatedPath, $"{text}=\n");
-            }
-            catch (System.Exception e)
-            {
-                logger.LogError($"Error writing to untranslated file: {e.Message}");
-            }
-        }
-    }
+        // public static void LogUntranslatedText(string text)
+        // {
+        //     if (!loggedTexts.Contains(text))
+        //     {
+        //         loggedTexts.Add(text);
+                
+        //         string pluginPath = Path.GetDirectoryName(typeof(TranslationPlugin).Assembly.Location);
+        //         string translationsPath = Path.Combine(pluginPath, "translations");
+        //         string untranslatedPath = Path.Combine(translationsPath, "untranslated.txt");
+                
+        //         try
+        //         {
+        //             File.AppendAllText(untranslatedPath, $"{text}=\n");
+        //         }
+        //         catch (System.Exception e)
+        //         {
+        //             logger.LogError($"Error writing to untranslated file: {e.Message}");
+        //         }
+        //     }
+        // }
 }
 
 public static class BundleTracker
@@ -1098,6 +1112,12 @@ class TextTranslationPatch
             if (dialogueToAnalyze.Contains("This bastard’s got some serious lungs! You think you’re freakin’ Pavarotti?!"))
             {
                 return "NORMALITY";
+            }
+
+            if (dialogueToAnalyze.Contains("Hey, cheer up — you just seemed so tense, I was joking.") ||
+                dialogueToAnalyze.Contains("Эй, да расслабься — ты так напряглась, я же пошутил."))
+            {
+                return "CHEER_UP_JOKING";
             }
             
             if (recentTextLog.Count > 0)
@@ -2126,6 +2146,13 @@ class TextTranslationPatch
                 {
                     TranslationPlugin.logger.LogInfo($"[GOT IT? CONTEXT] Found meeting context at index {i}, using CONTEXT_GOT_IT_MEETING");
                     return "CONTEXT_GOT_IT_MEETING";
+                }
+
+                if (dialog == "It’s totally fine if the angle’s a little off like this." ||
+                    dialog == "Даже если ракурс немного не такой, это нормально.")
+                {
+                    TranslationPlugin.logger.LogInfo($"[GOT IT? CONTEXT] Found photo angle context at index {i}, using CONTEXT_GOT_IT_PHOTO_ANGLE");
+                    return "CONTEXT_GOT_IT_PHOTO_ANGLE";
                 }
             }
             
@@ -3310,6 +3337,12 @@ class TextTranslationPatch
                     TranslationPlugin.logger.LogInfo($"Got it? -> Поняла? (context: meeting)");
                     return;
                 }
+                else if (context == "CONTEXT_GOT_IT_PHOTO_ANGLE")
+                {
+                    SetTranslatedText(__instance, "Поняла?", instanceId);
+                    TranslationPlugin.logger.LogInfo($"Got it? -> Поняла? (context: photo angle)");
+                    return;
+                }
                 else
                 {
                     string defaultTranslation = TranslationPlugin.GetTranslation(value);
@@ -3830,6 +3863,12 @@ class TextTranslationPatch
                         TranslationPlugin.logger.LogInfo("Right? -> Верно? (normality context)");
                         return;
                     }
+                    else if (context == "CHEER_UP_JOKING")
+                    {
+                        SetTranslatedText(__instance, "Правда?", instanceId);
+                        TranslationPlugin.logger.LogInfo("Right? -> Правда? (cheer up/joking context)");
+                        return;
+                    }
                     else
                     {
                         pendingRightTranslations[instanceId] = __instance;
@@ -4107,7 +4146,7 @@ class TextTranslationPatch
                 {
                     setText(value);
                     currentTexts[instanceId] = value;
-                    TranslationPlugin.LogUntranslatedText(value);
+                    //  TranslationPlugin.LogUntranslatedText(value);
                 }
             }
             catch (Exception e)
