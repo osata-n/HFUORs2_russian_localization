@@ -1,7 +1,7 @@
 Gyu-ri=Гюри
 Doctor=Доктор
 Mal-sook=Мал-сук
-Min-jung=Мин-Чжун
+Min-jung=Мин-чжун
 Yu-jeong=Ючжон
 Gran=Гран
 Yu-na=Юна
