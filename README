@@ -2,7 +2,7 @@
 
 Полная ручная локализация для игры **Five Hearts Under One Roof Season 2**. Более 9000 строк перевода, включая все диалоги, интерфейс, достижения и системные сообщения.
 
-**[Скачать последний релиз](https://github.com/osata-n/HFUORs2_russian_localization/releases/latest)** (установщик `FHUORs2_RU_v.1.0.exe`)
+**[Скачать последний релиз](https://github.com/osata-n/HFUORs2_russian_localization/releases/latest)**
 
 ---
 
@@ -20,7 +20,7 @@
 
 1.  **Закройте игру**, если она запущена.
 2.  Скачайте последнюю версию установщика из раздела **[Releases](https://github.com/osata-n/HFUORs2_russian_localization/releases)**.
-3.  Запустите `FHUORs2_RU_v.1.0.exe`.
+3.  Запустите установщик.
 4.  Следуйте инструкциям установщика. Если игра найдена в Steam, путь подставится автоматически.
 5.  Запустите игру.
 
