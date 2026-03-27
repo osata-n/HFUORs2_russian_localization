@@ -10,7 +10,7 @@ using UnityEngine;
 using System;
 using System.Threading;
 
-[assembly: MelonInfo(typeof(TranslationPlugin), "Translation Mod", "1.0.0", "osata.n")]
+[assembly: MelonInfo(typeof(TranslationPlugin), "Translation Mod", "2.0.2", "osata.n")]
 [assembly: MelonGame(null, null)]
 
 public class TranslationPlugin : MelonMod
@@ -25,20 +25,20 @@ public class TranslationPlugin : MelonMod
         string pluginPath = Path.GetDirectoryName(MelonAssembly.Assembly.Location);
         string translationsDir = Path.Combine(pluginPath, "translations");
 
-        //  string untranslatedFile = Path.Combine(translationsDir, "untranslated.txt");
+         string untranslatedFile = Path.Combine(translationsDir, "untranslated.txt");
         
-            // try
-            // {
-            //     if (File.Exists(untranslatedFile))
-            //     {
-            //         File.Delete(untranslatedFile);
-            //         Logger.LogInfo("Файл untranslated.txt очищен при запуске.");
-            //     }
-            // }
-            // catch (Exception ex)
-            // {
-            //     Logger.LogWarning($"Не удалось очистить untranslated.txt: {ex.Message}");
-            // }
+            try
+            {
+                if (File.Exists(untranslatedFile))
+                {
+                    File.Delete(untranslatedFile);
+                    MelonLogger.Msg("Файл untranslated.txt очищен при запуске.");
+                }
+            }
+            catch (Exception ex)
+            {
+                MelonLogger.Warning($"Не удалось очистить untranslated.txt: {ex.Message}");
+            }
         
         LoadTranslations();
         
@@ -77,7 +77,7 @@ public class TranslationPlugin : MelonMod
         }
         
         MelonLogger.Msg($"Loaded {translations.Count} translations from {translationFiles.Length} files");
-        //  CreateUntranslatedFile(translationsPath);
+        /* CreateUntranslatedFile(translationsPath); */
     }
     
     void AddDefaultTranslations()
@@ -177,6 +177,7 @@ public class TranslationPlugin : MelonMod
         translations["— What is even happening?\n— What are they doing??"] = "— Что вообще происходит?\n— Что они делают??";
         translations["— Oh!\n— Ah!"] = "— Ой!\n— Ай!";
         translations["— Min-jung, come on, you can’t start crying now!\n— Oh come on, seriously?!"] = "— Мин-Чжун, ну же, нельзя же начинать плакать сейчас!\n— Ой, да ну, серьезно?!";
+        translations["— Min-jung, come on, you can't start crying now!\n— Oh come on, seriously?!"] = "— Мин-Чжун, ну же, нельзя же начинать плакать сейчас!\n— Ой, да ну, серьезно?!";
         translations["— You call yourself a man?\n— Min-jung!!"] = "— И ты называешь себя мужчиной?\n— Мин-Чжун!!";
         translations["— Huhhh~?\n— Hmm..."] = "— Нууууу~?\n— Хм...";
         translations["— Huh? Wait, what...?\n— Ah..."] = "— А? Погоди, что...?\n— Ах...";
@@ -296,11 +297,12 @@ public class TranslationPlugin : MelonMod
         translations["Your Legs Are Gorgeous"] = "У тебя\nшикарные ноги";
         translations["To bless your eyes with maximum sexy vibes. You’re welcome~ "] = "Чтобы благословить ваши взоры максимально сексуальной атмосферой. Так что жду~!";
         translations["thank you so, so much.\n"] = "огромное-преогромное спасибо.";
-        translations["No way. "] = "Без шансов.>";
+        translations["No way. "] = "Без шансов.";
         translations["Love you, Bbanggyul~ "] = "Люблю тебя, Ппанггюль~";
         translations["Like, get married already! "] = "Типа, выходи уже замуж!";
         translations["Like, “Hey, what the hell is this?” "] = "Типа: “Эй, что это, чёрт возьми?”";
         translations["Every minute? "] = "Каждую минуту?";
+        translations["Still, if I had to choose, give me the pro. "] = "Но если уж выбирать, то пусть будет умелый.";
     }
     
     void LoadTranslationFile(string filePath)
@@ -404,15 +406,15 @@ public class TranslationPlugin : MelonMod
         MelonLogger.Msg("Default translation files created!");
     }
 
-        // void CreateUntranslatedFile(string translationsPath)
-        // {
-        //     string untranslatedPath = Path.Combine(translationsPath, "untranslated.txt");
-        //     if (File.Exists(untranslatedPath))
-        //     {
-        //         File.Delete(untranslatedPath);
-        //     }
-        //     File.WriteAllText(untranslatedPath, "// Untranslated texts - copy these to appropriate translation files\n");
-        // }
+/*         void CreateUntranslatedFile(string translationsPath)
+        {
+            string untranslatedPath = Path.Combine(translationsPath, "untranslated.txt");
+            if (File.Exists(untranslatedPath))
+            {
+                File.Delete(untranslatedPath);
+            }
+            File.WriteAllText(untranslatedPath, "// Untranslated texts - copy these to appropriate translation files\n");
+        } */
     
     public static string GetTranslation(string original)
     {
@@ -421,26 +423,26 @@ public class TranslationPlugin : MelonMod
         return null;
     }
 
-        // public static void LogUntranslatedText(string text)
-        // {
-        //     if (!loggedTexts.Contains(text))
-        //     {
-        //         loggedTexts.Add(text);
+/*         public static void LogUntranslatedText(string text)
+        {
+            if (!loggedTexts.Contains(text))
+            {
+                loggedTexts.Add(text);
                 
-        //         string pluginPath = Path.GetDirectoryName(typeof(TranslationPlugin).Assembly.Location);
-        //         string translationsPath = Path.Combine(pluginPath, "translations");
-        //         string untranslatedPath = Path.Combine(translationsPath, "untranslated.txt");
+                string pluginPath = Path.GetDirectoryName(typeof(TranslationPlugin).Assembly.Location);
+                string translationsPath = Path.Combine(pluginPath, "translations");
+                string untranslatedPath = Path.Combine(translationsPath, "untranslated.txt");
                 
-        //         try
-        //         {
-        //             File.AppendAllText(untranslatedPath, $"{text}=\n");
-        //         }
-        //         catch (System.Exception e)
-        //         {
-        //             logger.LogError($"Error writing to untranslated file: {e.Message}");
-        //         }
-        //     }
-        // }
+                try
+                {
+                    File.AppendAllText(untranslatedPath, $"{text}=\n");
+                }
+                catch (System.Exception e)
+                {
+                    MelonLogger.Error($"Error writing to untranslated file: {e.Message}");
+                }
+            }
+        } */
 }
 
 public static class BundleTracker
@@ -500,6 +502,7 @@ public static class SceneChangePatcher
 [HarmonyPatch]
 class TextTranslationPatch
 {
+    private static DateTime _lastGotItTime = DateTime.MinValue;
     private static readonly object translateLock = new object();
     private static bool isSettingText = false;
     
@@ -2350,7 +2353,7 @@ class TextTranslationPatch
             processedColorsInSeries = 0;
         }
     }
-    
+
     [HarmonyPostfix]
     [HarmonyPatch(typeof(Text), "set_text")]
     static void TranslateUIText(Text __instance, string value)
@@ -3536,7 +3539,13 @@ class TextTranslationPatch
                     lock (translateLock)
                     {
                         MelonLogger.Msg($"=== GOT IT DETECTED: '{value}' ===");
-                        
+                        TimeSpan timeSinceLast = DateTime.Now - _lastGotItTime;
+                        if (timeSinceLast.TotalSeconds < 3)
+                        {
+                            MelonLogger.Msg($"Skipping duplicate Got it. (only {timeSinceLast.TotalSeconds:F1} seconds since last translation)");
+                            return;
+                        }
+
                         if (!string.IsNullOrEmpty(value) && !IsSystemText(value))
                         {
                             if (recentTextLog.Count > 20)
@@ -3556,6 +3565,7 @@ class TextTranslationPatch
                         {
                             string recentText = recentTextLog[i];
                             if (string.IsNullOrEmpty(recentText)) continue;
+                            if (recentText == "Got it." || recentText == "Got it!") continue;
                             
                             MelonLogger.Msg($"  Recent [{i}]: '{recentText}'");
                             
@@ -3564,7 +3574,11 @@ class TextTranslationPatch
                                 recentText == "Make sure you really take it easy today!" ||
                                 recentText == "Обязательно как следует отдохни сегодня!" ||
                                 recentText == "You too, Yuman—don’t overdo it, okay?" ||
-                                recentText == "Ты тоже, Юман — не переусердствуй, ладно?")
+                                recentText == "Ты тоже, Юман — не переусердствуй, ладно?" ||
+                                recentText == "Okay okay, just hurry!!" ||
+                                recentText == "Ладно-ладно, просто поторопись!!" ||
+                                recentText == "Also, it’s not good to sit there too long…!" ||
+                                recentText == "К тому же, долго там сидеть вредно…!")
                             {
                                 isFemaleSpeakerContext = true;
                                 MelonLogger.Msg($"  -> Yuman GotIt context detected (exact phrase match)");
@@ -3598,11 +3612,12 @@ class TextTranslationPatch
                             {
                                 isWorkFeedbackContext = true;
                                 MelonLogger.Msg($"  -> Work feedback context detected");
+                                break;
                             }
                         }
                         
                         string translation;
-                        if (value == "Got it.")
+                        if (value == "Got it." || value == "Got it!")
                         {
                             if (isFemaleSpeakerContext)
                             {
@@ -3638,7 +3653,8 @@ class TextTranslationPatch
                                 MelonLogger.Msg($"Got it! -> Попалась! (default)");
                             }
                         }
-                        
+
+                        _lastGotItTime = DateTime.Now;
                         SetTranslatedText(__instance, translation, instanceId);
                         return;
                     }
